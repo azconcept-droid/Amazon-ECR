@@ -111,6 +111,11 @@ docker images
 docker push <aws_account_id>.dkr.ecr.<region>.amazonaws.com/hello-repository:latest
 ```
 
+![repository](./repo-screenshot.png)
+ECR Private Repository 
+![image](./image-screenshot.png)
+Pushed image
+
 ### 8. Clean Up Resources
 
 Remove the image and repository when done:
