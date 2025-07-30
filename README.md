@@ -25,9 +25,6 @@ This hands-on lab covers:
 First, prepare your scripts and install Docker:
 
 ```bash
-# Edit the Docker installation script
-vim docker-install.sh
-
 # Run the Docker installation script
 bash docker-install.sh
 
@@ -135,17 +132,6 @@ Ensure you have these files in your working directory:
 - `install-dev-tools` - Development tools installation script
 - `Dockerfile` - Instructions for building your application image
 - Application source code
-
-### Sample Dockerfile
-
-If you don't have a Dockerfile, here's a basic example:
-
-```dockerfile
-FROM nginx:alpine
-COPY . /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
-```
 
 ### AWS Permissions
 
